@@ -22,7 +22,7 @@ public class InsertPosition {
             if (target > nums[nums.length - 1])
                 index = nums.length;
             else if (target < nums[i])
-                {index = i; break;}
+                {index = i; break;} 
         }
         return index;
     }
